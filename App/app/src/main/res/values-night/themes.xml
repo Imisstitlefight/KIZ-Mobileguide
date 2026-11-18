@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AppFotoAustellung" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_light</item>
+        <item name="colorOnPrimary">@color/paper_dark</item>
+        <item name="colorPrimaryContainer">@color/accent_container_dark</item>
+        <item name="colorOnPrimaryContainer">@color/ink_light</item>
+        <item name="colorSecondary">@color/accent_light</item>
+        <item name="android:colorBackground">@color/paper_dark</item>
+        <item name="colorSurface">@color/paper_dark</item>
+        <item name="colorSurfaceContainerLow">@color/surface_card_dark</item>
+        <item name="colorOnSurface">@color/ink_light</item>
+        <item name="colorOnBackground">@color/ink_light</item>
+    </style>
+</resources>

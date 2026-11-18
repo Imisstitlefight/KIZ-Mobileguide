@@ -1,0 +1,111 @@
+{
+  "_hinweis": "Platzhalter-Inhalte für den Prototyp. Texte und Stücke werden in SCRUM-25 / SCRUM-34 ersetzt. Reihenfolge der Stücke = Reihenfolge im Rundgang.",
+  "areas": [
+    {
+      "id": "analog",
+      "title": "Bereich 1 · Analog",
+      "description": "Analogfotografie, Prints und Zeichnungen. Jedes Bild hat Zeit gebraucht, bevor es existiert hat."
+    },
+    {
+      "id": "digital",
+      "title": "Bereich 2 · Digital",
+      "description": "Digitalfotografie, Video und Web. Bilder, die sofort da sind und genauso schnell wieder verschwinden."
+    },
+    {
+      "id": "vergleich",
+      "title": "Bereich 3 · Gegenüberstellung",
+      "description": "Analoge und digitale Stücke direkt nebeneinander. Wie verändert das Medium deinen Blick?"
+    },
+    {
+      "id": "interaktiv",
+      "title": "Bereich 4 · Interaktiv",
+      "description": "Stücke, die erst durch dich passieren."
+    }
+  ],
+  "exhibits": [
+    {
+      "id": "A1",
+      "area": "analog",
+      "title": "Ybbs, 36 Aufnahmen",
+      "artist": "Team Fotoausstellung",
+      "medium": "Analogfotografie, Silbergelatine-Print",
+      "short": "Ein Film, 36 Bilder, kein zweiter Versuch.",
+      "text": "Ein Kleinbildfilm hat 36 Aufnahmen. Jede davon kostet Geld und Zeit, deshalb überlegt man sich vor dem Auslösen, ob sich das Bild lohnt. Erst Tage später sieht man das Ergebnis. Dieses Stück zeigt die komplette Filmrolle als Kontaktabzug, inklusive der Fehlbelichtungen.",
+      "question": "Welches der 36 Bilder hättest du nicht gemacht?",
+      "viewSeconds": 45,
+      "pairId": "D1",
+      "type": "info",
+      "color": "#8C7B6B"
+    },
+    {
+      "id": "A2",
+      "area": "analog",
+      "title": "Langsame Linie",
+      "artist": "Team Fotoausstellung",
+      "medium": "Bleistiftzeichnung auf Papier",
+      "short": "Eine Zeichnung, an der zwölf Stunden gearbeitet wurde.",
+      "text": "Für diese Zeichnung wurde jede Linie einzeln gesetzt. Zwölf Stunden Arbeit stecken in einem Blatt, das man im Vorbeigehen in zwei Sekunden „gesehen“ hat. Schau genauer hin: Wo hat die Hand gezögert?",
+      "question": "Wo erkennst du, dass ein Mensch gezeichnet hat?",
+      "viewSeconds": 60,
+      "pairId": "",
+      "type": "info",
+      "color": "#6F6A60"
+    },
+    {
+      "id": "D1",
+      "area": "digital",
+      "title": "Ybbs, 3.412 Aufnahmen",
+      "artist": "Team Fotoausstellung",
+      "medium": "Digitalfotografie, Bildschirm",
+      "short": "Derselbe Spaziergang, aber digital fotografiert.",
+      "text": "Derselbe Weg wie bei „Ybbs, 36 Aufnahmen“, diesmal mit dem Smartphone. Über 3.000 Fotos in einer Stunde, keines davon wurde je wieder angeschaut. Der Bildschirm zeigt sie im Sekundentakt.",
+      "question": "An wie viele Bilder kannst du dich nach einer Minute noch erinnern?",
+      "viewSeconds": 30,
+      "pairId": "A1",
+      "type": "info",
+      "color": "#3D6E8C"
+    },
+    {
+      "id": "D2",
+      "area": "digital",
+      "title": "15 Sekunden",
+      "artist": "Team Fotoausstellung",
+      "medium": "Video, Kurzform vs. Langform",
+      "short": "Ein Video, zweimal erzählt: als Clip und in voller Länge.",
+      "text": "Links läuft die 15-Sekunden-Version, gemacht für den Feed. Rechts läuft dieselbe Szene ungeschnitten, acht Minuten lang. Was bleibt in der kurzen Fassung von der Geschichte übrig?",
+      "question": "Was fehlt der kurzen Version?",
+      "viewSeconds": 60,
+      "pairId": "",
+      "type": "info",
+      "color": "#2F4F6F"
+    },
+    {
+      "id": "V1",
+      "area": "vergleich",
+      "title": "Print gegen Pixel",
+      "artist": "Team Fotoausstellung",
+      "medium": "Analoger Print und digitaler Druck",
+      "short": "Dasselbe Motiv, einmal auf Film, einmal digital.",
+      "text": "Zwei Abzüge desselben Motivs hängen nebeneinander. Einer wurde in der Dunkelkammer vergrößert, der andere digital gedruckt. Ohne Schild sind sie kaum zu unterscheiden. Trotzdem steckt in einem davon ein ganzer Nachmittag Arbeit.",
+      "question": "Welcher ist der analoge Print? Woran hast du es festgemacht?",
+      "viewSeconds": 45,
+      "pairId": "",
+      "type": "info",
+      "color": "#7A5C3E"
+    },
+    {
+      "id": "I1",
+      "area": "interaktiv",
+      "title": "Der Feed",
+      "artist": "Team Fotoausstellung",
+      "medium": "Interaktives Web-Piece",
+      "short": "Erlebe, wie ein Feed um deine Aufmerksamkeit kämpft.",
+      "text": "Gleich startet ein Feed, der dir in kurzer Zeit sehr viele Inhalte zeigt. Danach fragen wir dich, was du dir gemerkt hast.",
+      "question": "Wie viel hast du dir gemerkt, und wie viel von der Zeichnung in Bereich 1?",
+      "viewSeconds": 0,
+      "pairId": "A2",
+      "type": "interactive",
+      "color": "#B23A48"
+    }
+  ]
+}

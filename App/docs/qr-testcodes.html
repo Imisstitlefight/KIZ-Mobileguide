@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QR-Testcodes</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #fff; color: #222; margin: 24px; }
+    h1 { font-family: Georgia, serif; font-weight: normal; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; text-align: center; break-inside: avoid; }
+    .card .qr { display: inline-block; margin: 8px 0; }
+    .id { font-size: 28px; font-family: Georgia, serif; }
+    code { font-size: 12px; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>QR-Testcodes · App-Guide Prototyp</h1>
+  <p>Zum Testen am Bildschirm scannen oder ausdrucken. Inhalt: <code>kizausstellung://stueck/ID</code></p>
+  <div class="grid" id="grid"></div>
+  <script>
+    // Muss zu app/src/main/assets/exhibits.json passen
+    const stuecke = [
+      ["A1", "Ybbs, 36 Aufnahmen"], ["A2", "Langsame Linie"], ["D1", "Ybbs, 3.412 Aufnahmen"],
+      ["D2", "15 Sekunden"], ["V1", "Print gegen Pixel"], ["I1", "Der Feed (interaktiv)"]
+    ];
+    const grid = document.getElementById("grid");
+    for (const [id, titel] of stuecke) {
+      const link = "kizausstellung://stueck/" + id;
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `<div class="id">${id}</div><div>${titel}</div><div class="qr"></div><br><code>${link}</code>`;
+      grid.appendChild(card);
+      new QRCode(card.querySelector(".qr"), { text: link, width: 180, height: 180 });
+    }
+  </script>
+</body>
+</html>

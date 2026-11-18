@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Kamera für den QR-Scanner (wird auch von zxing-android-embedded deklariert) -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppFotoAustellung">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".TourActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- QR-Codes enthalten kizausstellung://stueck/ID, damit öffnet auch die normale Kamera-App direkt das Stück -->
+        <activity
+            android:name=".ExhibitActivity"
+            android:exported="true"
+            android:parentActivityName=".TourActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="stueck"
+                    android:scheme="kizausstellung" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".InteractiveActivity"
+            android:exported="false"
+            android:parentActivityName=".TourActivity" />
+
+        <!-- Scanner im Hochformat statt der Querformat-Voreinstellung der Bibliothek -->
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation" />
+    </application>
+
+</manifest>

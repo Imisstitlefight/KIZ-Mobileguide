@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Ruhige, papierartige Palette für die Ausstellung -->
+    <color name="paper">#FFF6F2EA</color>
+    <color name="paper_dark">#FF1B1A18</color>
+    <color name="ink">#FF22201C</color>
+    <color name="ink_light">#FFECE6DA</color>
+    <color name="accent">#FF8C5A3C</color>
+    <color name="accent_light">#FFD9A27E</color>
+    <color name="accent_container">#FFEFDCCB</color>
+    <color name="accent_container_dark">#FF4A3020</color>
+    <color name="surface_card">#FFFFFFFF</color>
+    <color name="surface_card_dark">#FF262421</color>
+    <color name="visited_green">#FF4C7A5A</color>
+</resources>

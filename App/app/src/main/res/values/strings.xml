@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Nimm dir Zeit</string>
+
+    <!-- Start -->
+    <string name="start_kicker">Ausstellung · KIZ Ybbs</string>
+    <string name="start_title">Nimm dir Zeit.</string>
+    <string name="start_intro">Kurzform-Content kämpft um jede Sekunde deiner Aufmerksamkeit. Diese Ausstellung macht das Gegenteil: Analoge und digitale Medien stehen sich gegenüber, und du entscheidest, wie lange du hinschaust.</string>
+    <string name="start_how_title">So funktioniert der Guide</string>
+    <string name="start_step_1">Folge dem Rundgang Station für Station oder geh einfach los.</string>
+    <string name="start_step_2">Scanne den QR-Code neben einem Stück, um mehr zu erfahren.</string>
+    <string name="start_step_3">Der Infotext kommt erst, wenn du dir kurz Zeit genommen hast.</string>
+    <string name="start_tour">Rundgang starten</string>
+    <string name="scan_qr">QR-Code scannen</string>
+    <string name="manual_code">Code eingeben</string>
+
+    <!-- Fortschritt -->
+    <string name="progress_none">Du hast noch kein Stück angesehen.</string>
+    <string name="progress_format">%1$d von %2$d Stücken angesehen</string>
+    <string name="progress_done">Rundgang abgeschlossen. Danke, dass du dir Zeit genommen hast.</string>
+
+    <!-- Rundgang -->
+    <string name="tour_title">Rundgang</string>
+    <string name="interactive_badge">Interaktiv</string>
+    <string name="visited">Angesehen</string>
+    <string name="reset_progress">Fortschritt zurücksetzen</string>
+    <string name="reset_title">Fortschritt zurücksetzen?</string>
+    <string name="reset_message">Alle Stücke werden wieder als nicht angesehen markiert.</string>
+    <string name="reset_confirm">Zurücksetzen</string>
+
+    <!-- Scan -->
+    <string name="scan_prompt">Halte die Kamera auf den QR-Code neben dem Ausstellungsstück</string>
+    <string name="manual_code_title">Code des Stücks eingeben</string>
+    <string name="manual_code_hint">z. B. A1</string>
+    <string name="unknown_code">Dieser Code gehört zu keinem Ausstellungsstück.</string>
+    <string name="open">Öffnen</string>
+    <string name="cancel">Abbrechen</string>
+
+    <!-- Detail -->
+    <string name="station_format">Station %1$d</string>
+    <string name="meta_format">%1$s · %2$s</string>
+    <string name="placeholder_photo">Platzhalter für das Foto des Stücks</string>
+    <string name="slow_title">Schau erst einmal hin.</string>
+    <string name="slow_hint">Leg das Handy kurz weg und betrachte das Stück. Der Text erscheint gleich von selbst.</string>
+    <string name="skip">Text sofort anzeigen</string>
+    <string name="about_piece">Über das Stück</string>
+    <string name="question_title">Frag dich selbst</string>
+    <string name="pair_title">Gegenstück</string>
+    <string name="pair_hint">Vergleiche dieses Stück mit</string>
+    <string name="next_station_format">Weiter zu Station %1$d: %2$s</string>
+    <string name="tour_finish">Rundgang beenden</string>
+
+    <!-- Interaktiv -->
+    <string name="feed_start">Feed starten</string>
+    <string name="feed_counter_format">Beitrag %1$d von %2$d</string>
+    <string name="feed_hint">Einfach zuschauen.</string>
+    <string name="quiz_title">Kurze Frage</string>
+    <string name="quiz_question_format">Was stand auf Beitrag Nummer %1$d?</string>
+    <string name="result_correct">Richtig, gut aufgepasst!</string>
+    <string name="result_wrong">Knapp daneben.</string>
+    <string name="result_body_format">Du hast %1$d Beiträge in %2$d Sekunden gesehen. Die richtige Antwort war „%3$s“.\n\nSo funktioniert ein Feed: Viel Inhalt, wenig bleibt hängen. Im ersten Bereich hast du dir für ein einziges Bild genauso lange Zeit genommen.</string>
+    <string name="back_to_tour">Zurück zum Rundgang</string>
+</resources>
